@@ -83,7 +83,7 @@ img.navImg{
     visibility: hidden;
     z-index: -1;
 }
-li.navImg:hover ~ .invis{
+#navlogo:hover ~ .invis{
     visibility: visible;
     z-index: 0;
 }
