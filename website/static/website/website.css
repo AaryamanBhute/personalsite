@@ -83,6 +83,10 @@ img.navImg{
     visibility: hidden;
     z-index: -1;
 }
+li.navImg:hover ~ .invis{
+    visibility: visible;
+    z-index: 0;
+}
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
