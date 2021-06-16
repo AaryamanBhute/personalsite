@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: white;
+    width: 100%;
 }
 img{
     padding: 20px;
@@ -8,28 +12,28 @@ img{
 }
 img.aboutme{
     padding: 25px;
-    height: 400px;
+    height: 26vw;
 }
 img.aboutme:hover{
     border: 1px dotted darkslateblue;
     margin: 9px;
 }
 img.expImg{
-    height: 400px;  
+    height: 26vw; 
 }
 img.expImg:hover{
     border: 1px dotted darkslateblue;
     margin: 9px;
 }
 img.edImg{
-    height: 350px;
+    height: 22.7vw;
 }
 img.edImg:hover{
     border: 1px dotted darkslateblue;
     margin: 9px;
 }
 img.proImg{
-    height: 400px;
+    height: 26vw;
     margin: 20px;
 }
 img.proImg:hover{
@@ -37,8 +41,8 @@ img.proImg:hover{
     margin: 19px;
 }
 img.linkImg:hover{
-    height: 60px;
-    width: 60px;
+    height: 3.9vw;
+    width: 3.9vw;
     margin: 5px;
 }
 .sticky{
@@ -53,17 +57,18 @@ img.linkImg:hover{
     position: absolute;
     transform: none;
     float: right;
-    right:10px;
+    right:20px;
+    margin: 10px;
 }
 .navitem{
-    width: 100px;
+    width: 6.5vw;
     border-top:  solid white;
     color: white;
     padding: 20px;
     background-color: #111e27;
     display: block;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-align: left;
 }
 .navitem a{
@@ -76,15 +81,15 @@ img.linkImg:hover{
 }
 p.aboutme{
     padding: 0px;
-    width: 500px;
+    width: 32.55vw;
     color: black;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-align: left;
 }
 p.contact{
     font-family: 'Alegreya', Courier, serif;
-    font-size: 12px;
+    font-size: .75vw;
 }
 p.aboutme:hover{
     color:darkblue;
@@ -95,7 +100,7 @@ p.bodyheader:hover{
 p.bodyheader{
     color: black;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 30px;
+    font-size: 1.9vw;
     text-align: center;
 }
 .description{
@@ -107,34 +112,34 @@ p.bodyheader{
 p.descriptionTitle{
     color: black;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 25px;
+    font-size: 1.6vw;
     text-align: center;
     padding: 1px;
 }
 p.descriptionRole{
     color: green;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-align: center;
 }
 p.descriptionLocation{
     color: grey ;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 18px;
+    font-size: 1.17vw;
     text-align: center
 }
 p.descriptionDates{
     color: black;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 15px;
+    font-size: 1.97vw;
     text-align: center;
 }
 p.descriptionContent{
-    width: 500px;
+    width: 32.55vw;
     line-height: 150%;
     color: black;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 18px;
+    font-size: 1.17vw;
     text-align: left;
 }
 p.descriptionTitle:hover{
@@ -155,15 +160,16 @@ p.descriptionContent:hover{
 .intro{
     background-image: url('https://i.ibb.co/0m775h5/headerbackground.jpg');
     background-repeat: no-repeat;
-    background-size: 1550px;
-    margin: -8px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    background-position: center center;
+    background-size: cover;
+    background-size: 100vw 105vh;
+    margin-top: -52px;
+    margin-left: -10px;
 }
 .header{
     color: white;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 70px;
+    font-size: 4.55vw;
     text-align: center;
     padding-top: 310px;
     margin: 10px;
@@ -173,7 +179,7 @@ p.descriptionContent:hover{
     text-align: center;
     color: white;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 35px;
+    font-size: 2.27vw;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 300px;
@@ -185,14 +191,14 @@ p.descriptionContent:hover{
     text-align: center;
     color: blue;
     font-family: 'Alegreya', Courier, monospace;
-    font-size: 35px;
+    font-size: 2.27vw;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 300px;
     margin: 10px;
 }
 .parent {
-    padding: 20px;
+    padding: 1.3vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,3 +221,8 @@ p.descriptionContent:hover{
       display: flex;
       justify-content: center;
   }
+  @media (max-width: 1000px) {
+    .navparent {
+        display:none;
+    }
+}
