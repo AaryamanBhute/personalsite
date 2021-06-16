@@ -25,6 +25,9 @@ img.aboutme{
     padding: 25px;
     height: 26vw;
 }
+.skilllist{
+    padding-bottom: 5vh;
+}
 img.aboutme:hover{
     border: 1px dotted darkslateblue;
     margin: 9px;
