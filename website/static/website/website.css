@@ -14,6 +14,13 @@ img{
     padding: 20px;
     margin: 10px;
 }
+img.skillImg{
+    width: 26vw;
+}
+img.skillImg:hover{
+    border: 1px dotted darkslateblue;
+    margin: 9px;
+}
 img.aboutme{
     padding: 25px;
     height: 26vw;
