@@ -74,6 +74,9 @@ img.linkImg:hover{
     right:20px;
     margin: 10px;
 }
+img.navImg{
+    width: 3vw;
+}
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
