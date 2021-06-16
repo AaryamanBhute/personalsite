@@ -79,6 +79,9 @@ img.navImg{
     padding: 0;
     margin: 0;
 }
+.invis{
+    visibility: hidden;
+}
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
