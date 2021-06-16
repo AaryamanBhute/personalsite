@@ -81,6 +81,7 @@ img.navImg{
 }
 .invis{
     visibility: hidden;
+    z-index: -1;
 }
 .navitem{
     width: 6.5vw;
