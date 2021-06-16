@@ -91,7 +91,8 @@ img.navImg{
     width: 6.5vw;
     border-top:  solid white;
     color: white;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
     background-color: #084068;
     display: block;
     font-family: 'Alegreya', Courier, serif;
