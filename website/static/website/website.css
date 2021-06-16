@@ -76,6 +76,8 @@ img.linkImg:hover{
 }
 img.navImg{
     width: 1vw;
+    padding: 0;
+    margin: 0;
 }
 .navitem{
     width: 6.5vw;
@@ -85,7 +87,7 @@ img.navImg{
     background-color: #084068;
     display: block;
     font-family: 'Alegreya', Courier, serif;
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: left;
 }
 .navitem a{
