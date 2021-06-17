@@ -160,6 +160,9 @@ p.descriptionDates:hover{
 p.descriptionContent:hover{
     color: darkblue;
 }
+.n{
+    visibility: hidden;
+}
 .intro{
     background-image: url('https://i.ibb.co/0m775h5/headerbackground.jpg');
     background-repeat: no-repeat;
