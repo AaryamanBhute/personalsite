@@ -244,6 +244,11 @@ p.descriptionContent:hover{
       background-color: #111e27;
       
   }
+  button{
+      border: hidden;
+      background-color: white;
+      padding-top: 3vh;
+  }
   .linkbaritem{
       display: flex;
       justify-content: center;
