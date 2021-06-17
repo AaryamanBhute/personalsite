@@ -224,8 +224,9 @@ p.descriptionContent:hover{
       display: grid;
       margin:0;
       padding: 0;
-      width: 100vw;
       background-color: #111e27;
+      background-size: cover;
+    width: 102vw;
       
   }
   button{
