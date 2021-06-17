@@ -65,10 +65,10 @@ img.navImg{
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
-    color: white;
+    color: black;
     padding: 5px;
     margin: -5px;
-    background-color: #111e27;
+    background-color: white;
     display: block;
     font-family: 'Alegreya', Courier, serif;
     font-size: 1vw;
