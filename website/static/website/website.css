@@ -79,12 +79,11 @@ img.navImg{
     padding: 0;
     margin: 0;
 }
-#menubar{
+.invis{
     display: none;
 }
 .navlogo:hover ~ .invis{
-    visibility: visible;
-    z-index: 0;
+    display: block;
 }
 .navitem{
     width: 6.5vw;
