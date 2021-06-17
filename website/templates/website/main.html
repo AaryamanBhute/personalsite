@@ -30,12 +30,12 @@
                 <li class="navitem" id="navlogo" style="background-color: white;">
                     <button onclick="toggle()"><img src="https://i.ibb.co/6JBKqxn/navlogo.png" class="navImg navlogo"></button>
                 </li>
-                <li class="navitem n"><a href="#aboutmeheader">About</a></li>
-                <li class="navitem n"><a href="#education">Education</a></li>
-                <li class="navitem n"><a href="#experiences">Experiences</a></li>
-                <li class="navitem n"><a href="#projects">Projects</a> </li>
-                <li class="navitem n"><a href="#skills">Skills</a> </li>
-                <li class="navitem n"><a href="#linkbar">Contact</a> </li>
+                <li class="navitem n" id="n"><a href="#aboutmeheader">About</a></li>
+                <li class="navitem n" id="n"><a href="#education">Education</a></li>
+                <li class="navitem n" id="n"><a href="#experiences">Experiences</a></li>
+                <li class="navitem n" id="n"><a href="#projects">Projects</a> </li>
+                <li class="navitem n" id="n"><a href="#skills">Skills</a> </li>
+                <li class="navitem n" id="n"><a href="#linkbar">Contact</a> </li>
                 
             </ul>
         </div>
@@ -330,7 +330,7 @@
     <script src="{% static 'website/fadein.js' %}"></script>
     <script>
         function toggle(){
-            var x = getElementsByClassName("n");
+            var x = document.getElementsByClassName("n");
             x.forEach(element => {
                 if(x.style.visibility == "hidden"){
                     element.style.visibility = "visible";
