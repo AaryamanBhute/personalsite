@@ -65,7 +65,6 @@ img.navImg{
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
-    color: black;
     padding: 5px;
     margin: -5px;
     background-color: white;
@@ -76,11 +75,11 @@ img.navImg{
 }
 .navitem a{
     font-family: 'Alegreya', Courier, serif;
-    color: white;
+    color: black;
 }
 .navitem a:visited{
     font-family: 'Alegreya', Courier, serif;
-    color: white;
+    color: black;
 }
 p.aboutme{
     padding: 0px;
