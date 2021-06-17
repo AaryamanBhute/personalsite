@@ -82,7 +82,7 @@ img.navImg{
 .invis{
     visibility: hidden;
 }
-.navlogo:hover ~ .invis{
+img.navlogo:hover ~ .invis{
     visibility: visible;
 }
 .navitem{
