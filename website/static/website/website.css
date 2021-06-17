@@ -74,16 +74,13 @@ img.linkImg:hover{
     right:20px;
     margin: 10px;
 }
+#n{
+    visibility: hidden;
+}
 img.navImg{
     width: 1vw;
     padding: 0;
     margin: 0;
-}
-.invis{
-    visibility: hidden;
-}
-img.navlogo:hover ~ .invis{
-    visibility: visible;
 }
 .navitem{
     width: 6.5vw;
