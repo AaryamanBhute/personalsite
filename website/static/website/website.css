@@ -82,7 +82,10 @@ img.navImg{
 #menubar{
     display: none;
 }
-img.navImg:hover #menubar{display: block;}
+.navlogo:hover ~ .invis{
+    visibility: visible;
+    z-index: 0;
+}
 .navitem{
     width: 6.5vw;
     border-top:  solid white;
