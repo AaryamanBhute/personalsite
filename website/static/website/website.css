@@ -17,10 +17,6 @@ img{
 img.skillImg{
     width: 26vw;
 }
-img.skillImg:hover{
-    border: 1px dotted darkslateblue;
-    margin: 9px;
-}
 img.aboutme{
     padding: 25px;
     height: 26vw;
@@ -28,31 +24,15 @@ img.aboutme{
 .skilllist{
     padding-bottom: 5vh;
 }
-img.aboutme:hover{
-    border: 1px dotted darkslateblue;
-    margin: 9px;
-}
 img.expImg{
     height: 26vw; 
-}
-img.expImg:hover{
-    border: 1px dotted darkslateblue;
-    margin: 9px;
 }
 img.edImg{
     height: 22.7vw;
 }
-img.edImg:hover{
-    border: 1px dotted darkslateblue;
-    margin: 9px;
-}
 img.proImg{
     height: 26vw;
     margin: 20px;
-}
-img.proImg:hover{
-    border: 1px dotted darkslateblue;
-    margin: 19px;
 }
 img.linkImg:hover{
     height: 3.9vw;
@@ -88,7 +68,7 @@ img.navImg{
     color: white;
     padding: 5px;
     margin: -5px;
-    background-color: #084068;
+    background-color: #111e27;
     display: block;
     font-family: 'Alegreya', Courier, serif;
     font-size: 1vw;
