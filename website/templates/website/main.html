@@ -328,7 +328,20 @@
     <script src="{% static 'website/loadSubtitle.js' %}"></script>
     <script src="{% static 'website/loadSubInitial.js' %}"></script>  
     <script src="{% static 'website/fadein.js' %}"></script>
-    <script src="{% static 'website/togglenav.js' %}"></script>
+    <script>
+        function toggle(){
+            var x = getElementsById("n");
+            x.forEach(element => {
+                if(x.style.visibility == "hidden"){
+                    element.style.visibility = "visible";
+                    element.style.zIndex = "1";
+                }else{
+                    element.style.visibility = "hidden";
+                    element.style.zIndex = "-1";
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>
