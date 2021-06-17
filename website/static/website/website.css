@@ -80,10 +80,10 @@ img.navImg{
     margin: 0;
 }
 .invis{
-    display: none;
+    visibility: hidden;
 }
 .navlogo:hover ~ .invis{
-    display: block;
+    visibility: visible;
 }
 .navitem{
     width: 6.5vw;
