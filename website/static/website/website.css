@@ -49,6 +49,9 @@ img.proImg:hover{
     margin: 17px;
     border: 1px solid blue;
 }
+img.linkImg{
+    image-rendering: pixelated;
+}
 img.linkImg:hover{
     height: 3.9vw;
     width: 3.9vw;
