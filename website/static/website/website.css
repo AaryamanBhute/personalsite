@@ -41,11 +41,11 @@ img.edImg:hover{
     border: 1px solid blue;
 }
 img.proImg{
-    height: 26vw;
+    width: 26vw;
     margin: 20px;
 }
 img.proImg:hover{
-    height: 26.3vw;
+    width: 26.3vw;
     margin: 17.5px;
     border: 1px solid blue;
 }
