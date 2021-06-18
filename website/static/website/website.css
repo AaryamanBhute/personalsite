@@ -46,7 +46,7 @@ img.proImg{
 }
 img.proImg:hover{
     width: 26.3vw;
-    margin: 17.5px;
+    margin: 17px;
     border: 1px solid blue;
 }
 img.linkImg:hover{
