@@ -27,11 +27,16 @@ img.aboutme{
 img.expImg{
     height: 26vw; 
 }
+img.expImg:hover{
+    height: 26.3vw; 
+    border: 1px solid blue;
+}
 img.edImg{
     height: 22.7vw;
 }
 img.edImg:hover{
-    height: 22.8vw;
+    height: 23vw;
+    border: 1px solid blue;
 }
 img.proImg{
     height: 26vw;
