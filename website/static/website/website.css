@@ -29,7 +29,7 @@ img.expImg{
 }
 img.expImg:hover{
     height: 26.3vw;
-    margin: 4.41px;
+    margin: 4.5px;
     border: 1px solid blue;
 }
 img.edImg{
@@ -37,7 +37,7 @@ img.edImg{
 }
 img.edImg:hover{
     height: 23vw;
-    margin: 4.41px;
+    margin: 4.5px;
     border: 1px solid blue;
 }
 img.proImg{
@@ -46,7 +46,7 @@ img.proImg{
 }
 img.proImg:hover{
     height: 26.3vw;
-    margin: 4.41px;
+    margin: 4.5px;
     border: 1px solid blue;
 }
 img.linkImg:hover{
