@@ -30,6 +30,9 @@ img.expImg{
 img.edImg{
     height: 22.7vw;
 }
+img.edImg:hover{
+    height: 22.8vw;
+}
 img.proImg{
     height: 26vw;
     margin: 20px;
