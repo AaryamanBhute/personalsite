@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 img{
-    padding: 20px;
+    padding: 1.3vw;
     margin: 10px;
 }
 img.skillImg{
@@ -28,7 +28,8 @@ img.expImg{
     height: 26vw; 
 }
 img.expImg:hover{
-    height: 26.3vw; 
+    height: 26.3vw;
+    margin: 4.4px;
     border: 1px solid blue;
 }
 img.edImg{
@@ -36,11 +37,17 @@ img.edImg{
 }
 img.edImg:hover{
     height: 23vw;
+    margin: 4.4px;
     border: 1px solid blue;
 }
 img.proImg{
     height: 26vw;
     margin: 20px;
+}
+img.proImg:hover{
+    height: 26.3vw;
+    margin: 4.4px;
+    border: 1px solid blue;
 }
 img.linkImg:hover{
     height: 3.9vw;
