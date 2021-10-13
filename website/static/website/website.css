@@ -226,35 +226,35 @@ p.descriptionContent:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .fade-in{
-      opacity: 0;
-      transition: opacity 250ms ease-in;
-  }
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
 
-  .fade-in.appear{
-    opacity: 1  ;
-  }
-  .linkbar{
-      float: center;
-      display: grid;
-      margin:0;
-      padding: 0;
-      background-color: #111e27;
-      background-size: cover;
+.fade-in.appear{
+    opacity: 1;
+}
+.linkbar{
+    float: center;
+    display: grid;
+    margin:0;
+    padding: 0;
+    background-color: #111e27;
+    background-size: cover;
     width: 100vw;
-  }
-  button{
-      border: hidden;
-      background-color: white;
-      padding-top: 3vh;
-  }
-  .linkbaritem{
-      display: flex;
-      justify-content: center;
-  }
-  @media (max-width: 1000px) {
+}
+button{
+    border: hidden;
+    background-color: white;
+    padding-top: 3vh;
+}
+.linkbaritem{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1000px) {
     .navparent {
         display:none;
     }
