@@ -59,7 +59,8 @@ img.linkImg:hover{
     height: auto;
     width: 4vw;
     margin: 0vw;
-    filter: invert(100%);
+    background-color: white;
+    filter: brightness(0) invert(0);
 }
 .sticky{
     position: -webkit-sticky;
