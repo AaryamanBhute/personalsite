@@ -32,6 +32,7 @@ img.expImg{
 img.expImg:hover{
     transform: scale(1.2,1.2);
     transition: 0.1s ease-in-out;
+    border-bottom: 1px solid blue;
 }
 img.edImg{
     height: 22.7vw;
@@ -41,6 +42,7 @@ img.edImg:hover{
 
     transform: scale(1.2,1.2);
     transition: 0.1s ease-in-out; 
+    border-bottom: 1px solid blue;
 }
 img.proImg{
     width: 26vw;
@@ -49,7 +51,8 @@ img.proImg{
 }
 img.proImg:hover{
     transform: scale(1.2,1.2);
-    transition: 0.1s ease-in-out;  
+    transition: 0.1s ease-in-out; 
+    border-bottom: 1px solid blue; 
 }
 img.linkImg{
     image-rendering: pixelated;
@@ -60,7 +63,8 @@ img.linkImg{
 }
 img.linkImg:hover{
     transform: scale(1.5,1.5);
-    transition: 0.1s ease-in-out;    
+    transition: 0.1s ease-in-out; 
+    border-bottom: 1px solid blue;   
 }
 .sticky{
     position: -webkit-sticky;
