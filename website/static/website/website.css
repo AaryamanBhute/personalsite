@@ -227,7 +227,7 @@ p.descriptionContent:hover{
     margin: .65vw;
 }
 .parent {
-    padding: 1.3vw;
+    padding: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
