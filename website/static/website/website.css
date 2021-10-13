@@ -25,29 +25,39 @@ img.aboutme{
     padding-bottom: 5vh;
 }
 img.expImg{
-    height: 26vw; 
+    height: 26vw;
+    transition: 0.1s ease-in-out;
+
 }
 img.expImg:hover{
     height: 26.3vw;
     margin: 6.5px;
     border: 1px solid blue;
+    transform: scale(1.5,1.5);
+    transition: 0.1s ease-in-out;
 }
 img.edImg{
     height: 22.7vw;
+    transition: 0.1s ease-in-out;
 }
 img.edImg:hover{
     height: 23vw;
     margin: 6.5px;
     border: 1px solid blue;
+    transform: scale(1.5,1.5);
+    transition: 0.1s ease-in-out; 
 }
 img.proImg{
     width: 26vw;
     margin: 20px;
+    transition: 0.1s ease-in-out;
 }
 img.proImg:hover{
     width: 26.3vw;
     margin: 17px;
     border: 1px solid blue;
+    transform: scale(1.5,1.5);
+    transition: 0.1s ease-in-out;  
 }
 img.linkImg{
     image-rendering: pixelated;
