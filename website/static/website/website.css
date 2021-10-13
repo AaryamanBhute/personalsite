@@ -190,8 +190,10 @@ p.descriptionContent:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    margin-top: -1vh;
+    width: 102vw;
+    margin-top: -52px;
+    margin-right: -30px;
+    margin-left: -10px;
 }
 .header{
     color: white;
@@ -227,12 +229,14 @@ p.descriptionContent:hover{
 .parent {
     padding: 1.3vw;
     display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 5vh;
 }
-
+.parentS {
+    padding: 1.3vw;
+    display: flex;
+    align-items: center;
+}
 .fade-in{
     opacity: 0;
     transition: opacity 250ms ease-in;
