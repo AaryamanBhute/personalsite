@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+}
+img{
+    padding: 1.3vw;
+    margin: 10px;
+}
+img.skillImg{
+    width: 26vw;
+}
+img.aboutme{
+    padding: 25px;
+    height: 26vw;
+}
+.skilllist{
+    padding-bottom: 5vh;
+}
+img.expImg{
+    height: 26vw; 
+}
+img.expImg:hover{
+    height: 26.3vw;
+    margin: 6.5px;
+    border: 1px solid blue;
+}
+img.edImg{
+    height: 22.7vw;
+}
+img.edImg:hover{
+    height: 23vw;
+    margin: 6.5px;
+    border: 1px solid blue;
+}
+img.proImg{
+    width: 26vw;
+    margin: 20px;
+}
+img.proImg:hover{
+    width: 26.3vw;
+    margin: 17px;
+    border: 1px solid blue;
+}
+img.linkImg{
+    image-rendering: pixelated;
+}
+img.linkImg:hover{
+    height: 3.9vw;
+    width: 3.9vw;
+    margin: 5px;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
+}
+.right{
+    float: right;
+}
+.navparent{
+    position: absolute;
+    transform: none;
+    float: right;
+    right:20px;
+    margin: 10px;
+}
+#n{
+    visibility: hidden;
+}
+img.navImg{
+    width: 1vw;
+    padding: 0;
+    margin: 0;
+}
+.navitem{
+    width: 6.5vw;
+    border-top:  solid white;
+    padding: 5px;
+    margin: -5px;
+    background-color: white;
+    display: block;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1vw;
+    text-align: center;
+}
+.navitem a{
+    font-family: 'Alegreya', Courier, serif;
+    color: black;
+}
+.navitem a:visited{
+    font-family: 'Alegreya', Courier, serif;
+    color: black;
+}
+p.aboutme{
+    padding: 0px;
+    width: 32.55vw;
+    color: black;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.3vw;
+    text-align: left;
+}
+p.contact{
+    font-family: 'Alegreya', Courier, serif;
+    font-size: .75vw;
+}
+p.aboutme:hover{
+    color:darkblue;
+}
+p.bodyheader:hover{
+    color: darkblue;
+}
+p.bodyheader{
+    color: black;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.9vw;
+    text-align: center;
+}
+.description{
+    display: table-row;
+    line-height: 50%;
+    padding: 1px;
+    margin: 0px;
+}
+p.descriptionTitle{
+    color: black;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.6vw;
+    text-align: center;
+    padding: 1px;
+}
+p.descriptionRole{
+    color: green;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.3vw;
+    text-align: center;
+}
+p.descriptionLocation{
+    color: grey ;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.17vw;
+    text-align: center
+}
+p.descriptionDates{
+    color: black;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.17vw;
+    text-align: center;
+}
+p.descriptionContent{
+    width: 32.55vw;
+    line-height: 150%;
+    color: black;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.17vw;
+    text-align: left;
+}
+p.descriptionTitle:hover{
+    color: darkblue;
+}
+p.descriptionRole:hover{
+    color: darkblue;
+}
+p.descriptionLocation:hover{
+    color: darkblue;
+}
+p.descriptionDates:hover{
+    color: darkblue;
+}
+p.descriptionContent:hover{
+    color: darkblue;
+}
+.n{
+    visibility: hidden;
+}
+.intro{
+    background-image: url('https://i.ibb.co/0m775h5/headerbackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 102vw;
+    margin-top: -52px;
+    margin-right: -30px;
+    margin-left: -10px;
+}
+.header{
+    color: white;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 4.55vw;
+    text-align: center;
+    padding-top: 20.18vw;
+    margin: .65vw;
+}
+.subtitleL{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 2.27vw;
+    text-align: center;
+    padding-top: 1.3vw;
+    padding-bottom: 19.6vw;
+    margin: .65vw;
+}
+.subtitleR{
+    font-style: italic;
+    display: inline-block; 
+    text-align: center;
+    color: blue;
+    font-family: 'Alegreya', Courier, monospace;
+    font-size: 2.27vw;
+    text-align: center;
+    padding-top: 1.3vw;
+    padding-bottom: 19.6vw;
+    margin: .65vw;
+}
+.parent {
+    padding: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fade-in{
+      opacity: 0;
+      transition: opacity 250ms ease-in;
+  }
+
+  .fade-in.appear{
+    opacity: 1  ;
+  }
+  .linkbar{
+      float: center;
+      display: grid;
+      margin:0;
+      padding: 0;
+      background-color: #111e27;
+      background-size: cover;
+    width: 100vw;
+  }
+  button{
+      border: hidden;
+      background-color: white;
+      padding-top: 3vh;
+  }
+  .linkbaritem{
+      display: flex;
+      justify-content: center;
+  }
+  @media (max-width: 1000px) {
+    .navparent {
+        display:none;
+    }
+}
