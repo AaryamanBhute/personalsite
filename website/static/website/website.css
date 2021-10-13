@@ -30,10 +30,8 @@ img.expImg{
 
 }
 img.expImg:hover{
-    height: 26.3vw;
-    margin: 6.5px;
     border: 1px solid blue;
-    transform: scale(1.5,1.5);
+    transform: scale(1.2,1.2);
     transition: 0.1s ease-in-out;
 }
 img.edImg{
@@ -41,10 +39,9 @@ img.edImg{
     transition: 0.1s ease-in-out;
 }
 img.edImg:hover{
-    height: 23vw;
-    margin: 6.5px;
+
     border: 1px solid blue;
-    transform: scale(1.5,1.5);
+    transform: scale(1.2,1.2);
     transition: 0.1s ease-in-out; 
 }
 img.proImg{
@@ -53,10 +50,8 @@ img.proImg{
     transition: 0.1s ease-in-out;
 }
 img.proImg:hover{
-    width: 26.3vw;
-    margin: 17px;
     border: 1px solid blue;
-    transform: scale(1.5,1.5);
+    transform: scale(1.2,1.2);
     transition: 0.1s ease-in-out;  
 }
 img.linkImg{
