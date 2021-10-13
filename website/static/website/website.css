@@ -51,15 +51,14 @@ img.proImg:hover{
 }
 img.linkImg{
     image-rendering: pixelated;
+    transition: 0.5s ease-in-out;  
     height: auto;
     width: 3.9vw;
     margin: .1vw;
 }
 img.linkImg:hover{
-    height: auto;
-    width: 4vw;
-    margin: 0vw;
-    background-color: white;
+    transform: scale(1.2,1.2);
+    transition: 0.5s ease-in-out;    
     filter: brightness(1) invert(0);
 }
 .sticky{
