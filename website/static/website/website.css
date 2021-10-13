@@ -265,6 +265,9 @@ button{
     background-color: white;
     padding-top: 3vh;
 }
+#educationlist{
+    padding: 1vh;
+}
 .linkbaritem{
     display: flex;
     justify-content: center;
