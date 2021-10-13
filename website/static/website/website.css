@@ -231,7 +231,7 @@ p.descriptionContent:hover{
     margin: .65vw;
 }
 .parent {
-    padding: 1vw;
+    padding: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,9 +264,6 @@ button{
     border: hidden;
     background-color: white;
     padding-top: 3vh;
-}
-#educationlist{
-    padding: 1vh;
 }
 .linkbaritem{
     display: flex;
