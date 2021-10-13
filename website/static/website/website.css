@@ -127,6 +127,7 @@ p.bodyheader{
     font-family: 'Alegreya', Courier, serif;
     font-size: 1.9vw;
     text-align: center;
+    width: 102vw;
 }
 .description{
     display: table-row;
