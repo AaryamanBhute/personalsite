@@ -190,7 +190,8 @@ p.descriptionContent:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 102vw;
+    width: 100vw;
+    margin-top: -1vh;
 }
 .header{
     color: white;
