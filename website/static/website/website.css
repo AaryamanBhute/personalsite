@@ -255,7 +255,7 @@ p.descriptionContent:hover{
     float: center;
     display: grid;
     margin:0;
-    padding: 0;
+    padding-bottom: 3vh;
     background-color: #111e27;
     background-size: cover;
     width: 100vw;
