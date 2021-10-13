@@ -60,7 +60,7 @@ img.linkImg:hover{
     width: 4vw;
     margin: 0vw;
     background-color: white;
-    filter: brightness(0) invert(0);
+    filter: brightness(1) invert(0);
 }
 .sticky{
     position: -webkit-sticky;
