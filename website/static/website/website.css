@@ -51,11 +51,14 @@ img.proImg:hover{
 }
 img.linkImg{
     image-rendering: pixelated;
+    height: auto;
+    width: 3.9vw;
+    margin: .1vw;
 }
 img.linkImg:hover{
-    height: 3.9vw;
-    width: 3.9vw;
-    margin: 5px;
+    height: auto;
+    width: 4vw;
+    margin: 0vw;
 }
 .sticky{
     position: -webkit-sticky;
