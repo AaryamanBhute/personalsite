@@ -228,6 +228,7 @@ p.descriptionContent:hover{
 }
 .parent {
     padding: 1vw;
+    width: 102vw;
     display: flex;
     align-items: center;
     justify-content: center;
