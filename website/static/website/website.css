@@ -230,6 +230,7 @@ p.descriptionContent:hover{
     padding: 1.3vw;
     display: flex;
     width: 100%;
+    justify-content: center;
     align-items: center;
     gap: 5vw;
 }
