@@ -14,18 +14,15 @@ img{
     padding: 1.3vw;
     margin: 10px;
 }
-img.skillImg{
-    width: 26vw;
-}
 img.aboutme{
     padding: 25px;
     height: 26vw;
+    min-height: 150px;
 }
 .skilllist{
     padding-bottom: 5vh;
 }
 img.expImg{
-    height: 26vw;
     transition: 0.1s ease-in-out;
 
 }
@@ -35,8 +32,7 @@ img.expImg:hover{
     border-bottom: 1px solid blue;
 }
 img.edImg{
-    height: 22.7vw;
-    transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;   
 }
 img.edImg:hover{
 
@@ -58,7 +54,6 @@ img.linkImg{
     image-rendering: pixelated;
     transition: 0.1s ease-in-out;  
     height: auto;
-    width: 3.9vw;
     margin: .1vw;
 }
 img.linkImg:hover{
@@ -78,7 +73,7 @@ img.linkImg:hover{
     position: absolute;
     transform: none;
     float: right;
-    right:20px;
+    right:0px;
     margin: 10px;
 }
 #n{
@@ -105,7 +100,6 @@ img.navImg{
     border-top:  solid white;
     padding: 5px;
     margin: -5px;
-    background-color: white;
     display: block;
     font-family: 'Alegreya', Courier, serif;
     font-size: 1vw;
@@ -138,6 +132,7 @@ p.bodyheader:hover{
     color: darkblue;
 }
 p.bodyheader{
+    width: 100vw;
     color: black;
     font-family: 'Alegreya', Courier, serif;
     font-size: 1.9vw;
@@ -202,21 +197,22 @@ p.descriptionContent:hover{
     visibility: hidden;
 }
 .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
     background-image: url('https://i.ibb.co/0m775h5/headerbackground.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 102vw;
-    margin-top: -52px;
-    margin-right: -30px;
-    margin-left: -10px;
+    width: 100vw;
 }
 .header{
     color: white;
     font-family: 'Alegreya', Courier, serif;
     font-size: 4.55vw;
     text-align: center;
-    padding-top: 20.18vw;
     margin: .65vw;
 }
 .subtitleL{
@@ -226,8 +222,6 @@ p.descriptionContent:hover{
     font-family: 'Alegreya', Courier, serif;
     font-size: 2.27vw;
     text-align: center;
-    padding-top: 1.3vw;
-    padding-bottom: 19.6vw;
     margin: .65vw;
 }
 .subtitleR{
@@ -238,16 +232,14 @@ p.descriptionContent:hover{
     font-family: 'Alegreya', Courier, monospace;
     font-size: 2.27vw;
     text-align: center;
-    padding-top: 1.3vw;
-    padding-bottom: 19.6vw;
     margin: .65vw;
 }
 .parent {
     padding: 1.5vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
 }
 .parentS {
     padding: 1.3vw;
@@ -284,5 +276,103 @@ button{
 @media (max-width: 1000px) {
     .navparent {
         display:none;
+    }
+    .intro{
+        height:50vh;
+    }
+    .header{
+        padding-top: 20vh;
+    }
+    .parent{
+        gap: 0vw;
+    }
+    img.edImg{
+        width: 60vw;
+    }
+    img.expImg{
+        width: 70vw;
+        padding: 3vh;
+        margin-bottom: 0vh;
+        margin-top: 0 vh;
+        margin-left: 2vw;
+    }
+    img.proImg{
+        width: 60vw;
+    }
+    img.skillImg{
+        width: 80vw;
+        padding: 0;
+    }
+    img.linkImg{
+        width: 10vw;
+    }
+    img.aboutme{
+        padding-top: 0;
+        width: 60vw;
+        height: auto;
+    }
+    .navitem{
+        font-size: 20px;
+    }
+    p.bodyheader{
+        font-size: 25px;
+        margin-bottom: 0vh;
+    }
+    p.aboutme{
+        font-size: 12px;
+        width: 80vw;
+    }
+    .description{
+        width: 80vw;
+    }
+    p.descriptionTitle{
+        width: 80vw;
+        font-size: 14px;
+    }
+    p.descriptionRole, p.descriptionDates, p.descriptionContent, p.descriptionLocation{
+        width: 80vw;
+        font-size: 12px;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .subtitleL{
+        font-size: 15px;
+    }
+    .subtitleR{
+        font-size: 15px;
+    }
+    #linkTitle{
+        font-size: 10px;
+        padding-bottom: 2vh;
+    }
+
+}
+@media (min-width: 1001px){
+    .intro{
+        height: 100vh;
+    }
+    .header{
+        padding-top: 40vh;
+    }
+    .parent{
+        justify-content: center;
+        gap: 5vw;
+    }
+    img.edImg{
+        height: 22.7vw;
+    }
+    img.expImg{
+        width: 25vw;
+    }
+    img.linkImg{
+        width: 3.25vw;
+    }
+    img.skillImg{
+        width: 30vw;
+        padding: 0;
+    }
+    .skilllist.parent.description{
+        width: 8vw;
     }
 }
