@@ -170,6 +170,12 @@ p.descriptionDates{
     font-size: 1.17vw;
     text-align: center;
 }
+a.descriptionLink{
+    color: blue;
+    font-family: 'Alegreya', Courier, serif;
+    font-size: 1.2vw;
+    text-align: center;
+}
 p.descriptionContent{
     width: 32.55vw;
     line-height: 150%;
