@@ -335,7 +335,7 @@ button{
         width: 80vw;
         font-size: 14px;
     }
-    p.descriptionRole, p.descriptionDates, p.descriptionContent, p.descriptionLocation{
+    p.descriptionRole, p.descriptionDates, p.descriptionContent, p.descriptionLocation, a.descriptionLink{
         width: 80vw;
         font-size: 12px;
     }
